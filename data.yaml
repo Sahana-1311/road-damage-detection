@@ -1,0 +1,11 @@
+# Dataset config for Ultralytics YOLO (RDD2022-style road damage classes).
+# Class ORDER must match the label files and severity.CLASS_NAMES.
+path: ./dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: longitudinal_crack   # RDD code D00
+  1: transverse_crack     # RDD code D10
+  2: alligator_crack      # RDD code D20
+  3: pothole              # RDD code D40
